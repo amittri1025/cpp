@@ -19,17 +19,15 @@ void print(int arr[], int size){
 //     return add(i+1);
 // }
 
-
 // void recursion(int n){
 //     if(n==0) return ;
 //     cout<<"I am in recursion: "<<n<<endl;
 //     recursion(n-1);
 // }
 
-
 int factorial(int n){
-    if(n>0) return n*factorial(n-1);
-    // return 
+    if(n==1) return n;
+    return n*factorial(n-1);
 }
 
 int main(){
